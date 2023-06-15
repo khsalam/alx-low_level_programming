@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /*
- * Print Programming is like building a multilingual puzzl
- * main(void) printf to print new line
+ * main  printf to print new line
  */
 int main(void)
 {

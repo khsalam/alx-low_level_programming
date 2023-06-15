@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - printf to print new line
+/**
+ * main - printf to print new line with a proper grammer
  * Return: 0 if sucess one else
  */
 int main(void)

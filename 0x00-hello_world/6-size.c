@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-/*
- * Print Programming is like building a multilingual puzzle
+/**
+ * main -  Print Programming is like building a multilingual puzzle
+ * Retuen: 0 if success else return one
  */
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
+	printf("size of long int: %d bytes\n",sizeof(long int));
 	return (0);
 }

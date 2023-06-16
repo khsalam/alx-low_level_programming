@@ -4,7 +4,7 @@
 
 /**
  * main - print the sign of the variable
- * betty style doc for function main goes there 
+ * betty style doc for function main goes there
  * Return: always return 0
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
-	if(n ==0)
+	if(n == 0)
 		printf("%d is zero\n", n);
 	if (n < 0)
 		printf("%d is negative\n", n);

@@ -16,14 +16,13 @@ int main(void)
 	for (c = 48; c <= 57; c++)
 		for (d = c ; d <= 57; d++)
 			for (e = c ; e <= 57; e++)
-				for (f = c + 1; f <= 57; f++)
+				for (f = c ; f <= 57; f++)
 				{
 					putchar(c);
 					putchar(d);
 					putchar(' ');
 					putchar(e);
 					putchar(f);
-					
 					if (c != 57 || d != 57 || e != 57 || f != 57)
 					{
 						putchar(',');

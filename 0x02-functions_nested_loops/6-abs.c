@@ -1,5 +1,6 @@
 #include "main.h"
 #include "ctype.h"
+#include "stdlib.h"
 
 /**
  *_abs(int) - check if input is alpha

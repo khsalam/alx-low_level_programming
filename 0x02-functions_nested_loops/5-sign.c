@@ -2,8 +2,10 @@
 #include "ctype.h"
 
 /**
- * _ialpha - check if input is alpha 
- * c: the Input paramater
+ *_ialpha - check if input is alpha 
+ *@c: the Input paramater
+ *
+ * Return: 1 for positive -1 for negative else 0
  */
 int print_sign(int c)
 {

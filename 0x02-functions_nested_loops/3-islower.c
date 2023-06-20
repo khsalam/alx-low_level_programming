@@ -3,6 +3,7 @@
 
 /**
  * _islower - check if lower case chart
+ * c: intteger paramater to check
  */
 int _islower(int c)
 {

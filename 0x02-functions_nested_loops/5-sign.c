@@ -5,10 +5,12 @@
  * _ialpha - check if input is alpha 
  * c: the Input paramater
  */
-int _isalpha(int c)
+int print_sign(int c)
 {
-	if (isalpha(c) > 0)
+	if (c > 0)
 		return (1);
-	else
+	if (c == 0)
 		return (0);
+	if (c < 0)
+	       return(-1);
 }

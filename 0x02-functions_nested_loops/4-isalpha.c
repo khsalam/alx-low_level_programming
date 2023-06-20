@@ -2,7 +2,7 @@
 #include "ctype.h"
 
 /**
- * _ialpha - check if input is alpha 
+ *_isalpha - check if input is alpha 
  *@c: the Input paramater
  *Return: Return 1 if alpha else 0
  */

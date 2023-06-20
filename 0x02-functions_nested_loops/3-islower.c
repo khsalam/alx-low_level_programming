@@ -2,10 +2,10 @@
 #include "ctype.h"
 
 /**
- * _islower - check if lower case chart
+ *_islower - check if lower case chart
  *@c: intteger paramater to check
  *
- * Return: 1 if lower else 0
+ *Return: 1 if lower else 0
  */
 int _islower(int c)
 {

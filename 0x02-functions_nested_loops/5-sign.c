@@ -2,7 +2,7 @@
 #include "ctype.h"
 
 /**
- *print_sign - check if input is alpha 
+ *print_sign - check if input is alpha
  *@c: the Input paramater
  *
  * Return: 1 for positive -1 for negative else 0
@@ -10,6 +10,7 @@
 int print_sign(int c)
 {
 	int r;
+
 	if (c > 0)
 	{
 		r = 1;
@@ -25,5 +26,5 @@ int print_sign(int c)
 	       r = -1;
 	       _putchar('-');
 	}
-	return(r);
+	return (r);
 }

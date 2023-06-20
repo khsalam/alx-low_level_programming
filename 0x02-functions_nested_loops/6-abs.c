@@ -7,7 +7,7 @@
  *
  * Return: 1 for positive -1 for negative else 0
  */
-int _abs(int c);
+int _abs(int c)
 {
 	int r;
 

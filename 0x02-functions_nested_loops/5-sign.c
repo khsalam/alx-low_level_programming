@@ -16,5 +16,5 @@ int print_sign(int c)
 		r = 0;
 	if (c < 0)
 	       r = -1;
-	return(r)
+	return(r);
 }

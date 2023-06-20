@@ -1,14 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
-/**
- * main - print the _put char					
- * betty style doc for function main goes there
- * Return: always return 0
- */
-int main(void)
+#include <unistd.h>
+int _putchar(char c)
 {
-	printf("_putchar");
-	return (0);
+	return (write(1, &c, 1));
 }

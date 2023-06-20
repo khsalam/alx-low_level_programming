@@ -2,11 +2,11 @@
 #include "ctype.h"
 
 /**
- * _islower - check if lower case chart
+ * _ialpha - check if input is alpha 
  */
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (islower(c) > 0)
+	if (isalpha(c) > 0)
 		return (1);
 	else
 		return (0);

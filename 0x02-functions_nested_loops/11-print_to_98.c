@@ -1,6 +1,6 @@
 #include "main.h"
 #include "ctype.h"
-#include "stdlib"
+#include "stdlib.h"
 
 /**
  *print_to_98 - return sum

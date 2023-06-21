@@ -20,8 +20,8 @@ void jack_bauer(void)
 			f = h % 10;
 			if (h < 10)
 			{
-				_putchar(h + '0');
 				_putchar('0');
+				_putchar(h + '0');
 			}
 			else
 			{
@@ -33,8 +33,8 @@ void jack_bauer(void)
 			_putchar(':');
 			if (m < 10)
 			{
-				_putchar(m + '0');
 				_putchar('0');
+				_putchar(m + '0');
 			}
 			else
 			{

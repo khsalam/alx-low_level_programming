@@ -1,7 +1,6 @@
 #include "main.h"
 #include "ctype.h"
-#include "stdlib.h"
-
+#include <stdio.h>
 /**
  *print_to_98 - return sum
  *@n: - First

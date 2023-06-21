@@ -2,7 +2,7 @@
 #include "ctype.h"
 
 /**
- *jack_bauer - print every min 
+ *jack_bauer - print every min
  *
  */
 void jack_bauer(void)

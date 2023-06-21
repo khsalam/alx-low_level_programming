@@ -20,28 +20,28 @@ void jack_bauer(void)
 			f = h % 10;
 			if (h < 10)
 			{
-				_putchar('0');
 				_putchar(h + '0');
+				_putchar('0');
 			}
 			else
 			{
 				f = h % 10;
 				l = h / 10;
-				_putchar(f + '0');
 				_putchar(l + '0');
+				_putchar(f + '0');
 			}
 			_putchar(':');
 			if (m < 10)
 			{
-				_putchar('0');
 				_putchar(m + '0');
+				_putchar('0');
 			}
 			else
 			{
 				f = m % 10;
 				l = m / 10;
-				_putchar(f + '0');
 				_putchar(l + '0');
+				_putchar(f + '0');
 			}
 			_putchar('\n');
 		}

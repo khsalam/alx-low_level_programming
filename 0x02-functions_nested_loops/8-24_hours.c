@@ -1,4 +1,4 @@
-#include "main.h"jack_bauer
+#include "main.h"
 #include "ctype.h"
 
 /**

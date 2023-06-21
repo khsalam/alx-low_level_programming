@@ -22,8 +22,9 @@ void times_table(void)
 			l = n / 10;
 			if (n < 10)
 			{
-				if (n > 0)
+				if (m > 0)
 					_putchar(' ');
+				_putchar(' ');
 				_putchar(n + '0');
 				_putchar(',');
 			}
@@ -31,7 +32,6 @@ void times_table(void)
 			{
 				f = n % 10;
 				l = n / 10;
-				_putchar(' ');
 				_putchar(l + '0');
 				_putchar(f + '0');
 				_putchar(',');

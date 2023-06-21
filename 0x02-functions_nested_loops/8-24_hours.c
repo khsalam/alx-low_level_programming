@@ -3,9 +3,7 @@
 
 /**
  *jack_bauer - print every min  
- *@c: the Input paramater
  *
- * Return: last digit
  */
 void jack_bauer(void)
 {

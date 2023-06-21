@@ -22,8 +22,8 @@ void times_table(void)
 			l = n / 10;
 			if (n < 10)
 			{
-				_putchar('0');
 				_putchar(n + '0');
+				_putchar(',');
 			}
 			else
 			{
@@ -31,6 +31,7 @@ void times_table(void)
 				l = n / 10;
 				_putchar(l + '0');
 				_putchar(f + '0');
+				_putchar(',');
 			}
 			if (m < 9)
 			_putchar(' ');

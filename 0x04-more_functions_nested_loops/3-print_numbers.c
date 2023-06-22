@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - print digits.
- * @c: First int .
  */
 void print_numbers(void)
 {

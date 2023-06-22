@@ -1,8 +1,10 @@
+#include "main.h"
+
 /**
  * print_numbers - print digits.
  * @c: First int .
  */
-oid print_numbers(void)
+void print_numbers(void)
 {
 	int c;
 

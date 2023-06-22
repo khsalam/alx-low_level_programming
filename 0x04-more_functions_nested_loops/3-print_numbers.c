@@ -1,9 +1,6 @@
-#include "main.h"
 /**
- * mul - checks for uppercase.
- * @a: First int .
- * @b: Second int
- * Return: multible of a* b.
+ * print_numbers - print digits.
+ * @c: First int .
  */
 oid print_numbers(void)
 {

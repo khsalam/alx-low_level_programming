@@ -1,4 +1,4 @@
-@include "main.h"
+#include "main.h"
 /**
  * print_rev - rest pointers dereference
  * @s: character to check.

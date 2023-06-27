@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _puts - rest pointers dereference
  * @str: character to check.

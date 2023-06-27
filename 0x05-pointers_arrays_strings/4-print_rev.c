@@ -3,7 +3,7 @@
  * print_rev - rest pointers dereference
  * @s: character to check.
  */
-print_rev(char *s)
+void print_rev(char *s)
 {
 	int n = 0;
 	int i;

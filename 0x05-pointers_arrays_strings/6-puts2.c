@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * putss - puts the even number characters
+ * puts2 - puts the even number characters
  * @str: character to check.
  */
 void puts2(char *str)

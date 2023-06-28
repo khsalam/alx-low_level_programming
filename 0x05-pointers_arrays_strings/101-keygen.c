@@ -9,16 +9,17 @@
  */
 int main(void)
 {
-	char pass[14];
+	char pass[32];
 	int i;
 
 	srand(time(0));
 
-	for (i = 0; i < 14; i++)
+	for (i = 0; i < 32; i++)
 	{
 		pass[i] = (rand() % (126 - 32)) + '!';
 		putchar(pass[i]);
 	}
+	putchar('\n');
 
 	return (0);
 }

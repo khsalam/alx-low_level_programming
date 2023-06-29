@@ -9,14 +9,13 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-
 	int i, m;
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
-	
-	for (m = 0; m < n; m++)
+
+	for (m = 0; co < n; m++)
 	{
 		dest[i + m] = src[m];
 		if (src[m] == '\0')

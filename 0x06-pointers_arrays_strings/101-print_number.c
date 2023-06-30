@@ -30,18 +30,20 @@ void print_number(int n)
 		t = t * 10;
 		l++;
 	}
+	
 	if (t > 1)
 		t = t / 10;
+	
 	if (n <= 9)
 		_putchar(n + '0');
 	else
-	for (i = 0; i < l; i++)
 	{
-		lst = m / t;
-		_putchar(lst + '0');
-		m = m % t;
-		t = t / 10;
-		/* printf("New N = %d new div = %d \n",m,t); */
+		for (i = 0; i < l; i++)
+		{
+			lst = m / t;
+			_putchar(lst + '0');
+			m = m % t;
+			t = t / 10;
+		}
 	}
-
 }

@@ -32,7 +32,7 @@ void print_number(int n)
 
 	if (t > 1)
 		t = t / 10;
-	if (n <= 9)
+	if (l == 0)
 		_putchar(n + '0');
 	else
 	{

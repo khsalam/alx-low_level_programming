@@ -15,13 +15,12 @@ void print_number(int n)
 
 	t = 1;
 	i = 0;
-	
-	if ( n < 0 )
+
+	if (n < 0)
 	{
 		_putchar('-');
 		n = n * -1;
 	}
-	
 	l = 0;
 	m = n;
 
@@ -30,10 +29,9 @@ void print_number(int n)
 		t = t * 10;
 		l++;
 	}
-	
+
 	if (t > 1)
 		t = t / 10;
-	
 	if (n <= 9)
 		_putchar(n + '0');
 	else

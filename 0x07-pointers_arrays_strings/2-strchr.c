@@ -22,8 +22,7 @@ char *_strchr(char *s, char c)
 			break;
 		}
 	}
-		
-	if ( f >=0 )
+	if (f >= 0)
 	{
 		p = s + i;
 	}

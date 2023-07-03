@@ -5,7 +5,7 @@
  * @s: string
  * @accept: string containing the list of characters to match for
  *
- * Return: the number of bytes 
+ * Return: the number of bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {

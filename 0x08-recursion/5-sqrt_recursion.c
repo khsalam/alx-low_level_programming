@@ -23,5 +23,5 @@ int sqrtm(int a, int b)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt2(n, 1));
+	return (sqrtm(n, 1));
 }

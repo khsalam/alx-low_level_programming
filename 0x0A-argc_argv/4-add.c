@@ -10,18 +10,26 @@
  */
 int main(int argc, char **argv)
 {
-	int n, m;
+	int n, m, i;
 
 	m = 0;
-	if (argc != 3)
+	if (argc == 1)
 	{
-		printf("%s\n", "Error");
-		m = 1;
+		printf("%i\n", 0);
+		return (0);
 	}
-	else
+	
+	for (n = 1; n < argc; n++)
 	{
-		n = atoi(argv[1]) * atoi(argv[2]);
-		printf("%i\n", n);
+		for (i = 0; argv[n][i] != '\0'; i++)
+			if (argv[n][i] < '0' || argv[n][i] > '9')
+			{
+				printf("%s\n", "Error");
+				return (1);
+			}
+
+		m = m + atoi(argv[n]);
 	}
-	return (m);
+	printf("%i\n", m);
+	return (0);
 }

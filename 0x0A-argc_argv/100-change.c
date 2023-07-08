@@ -20,7 +20,13 @@ int main(int argc, char *argv[])
 		printf("%s\n", c);
 		return (1);
 	}
+
 	v = atoi(argv[1]);
+	if (v < 0)
+	{
+		printf("%i\n", 0);
+		return (0);
+	}
 	c25 = v / 25;
 	v = v % 25;
 	c10 = v / 10;

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints minimum number of coins to 
+ * main - prints minimum number of coins to
  * @argc: number of arguments
  * @argv: array with the arguments
  *

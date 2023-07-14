@@ -5,7 +5,7 @@
 *@nmemb: number of elements
 *@size: size of the memory block to be allocated
 *
-*Return: poiner to 
+*Return: poiner to block of int
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
